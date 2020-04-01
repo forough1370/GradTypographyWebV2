@@ -1,0 +1,129 @@
+body{
+	background-color:#ff8900;
+}
+
+.middle-column{
+  margin: auto;
+  width: 55%;
+  padding: 10px;
+  background: #fbbef3;
+}
+
+.border{
+	border-style: dotted; 
+	border-color: black;
+	padding:20px;
+}
+
+@font-face {
+    font-family: 'Solide Mirage_Etroit';
+    src:url('assets/Etroit/Solide_Mirage-Etroit_web.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fengardo-neue';
+    src:url('assets/fengardoneue_regular-webfont.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'compagnon-roman';
+    src:url('assets/Compagnon-Roman.woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{
+	font-family: 'Solide Mirage_Etroit';
+	color:magenta;
+/*	text-transform: uppercase;
+*/	text-align: center;
+	font-size: 3em;
+	line-height: 1.5em;
+	margin-bottom: 15px;
+}
+
+h3{
+	font-family: 'compagnon-roman';
+	text-align: center;
+	font-size: 2em;
+	line-height: 1.3em;
+	margin-top: 15px;
+}
+
+.sidebar {
+	font-family: 'compagnon-roman';
+	text-align: left;
+	color:#4d4dff;;
+	font-size: 0.8em;
+	line-height: 0.8em;
+	width: 500px; 
+    position: fixed; 
+    margin-left: 5px; 
+}
+
+.sidebar h3{
+	font-family: 'fengardo-neue';
+	font-size:1.3em;
+	text-align: left;
+	margin-bottom: 5px;
+	margin-top: 8px; 
+
+}
+
+.intro{
+	font-family: 'fengardo-neue';
+	font-size: 1.5em;
+	line-height: 1.3em;
+	padding:30px 0px 80px 0px;
+
+}
+
+.pull-quote{
+	font-family: 'compagnon-roman';
+	color:#4d4dff;
+	font-size: 1.8em;
+	line-height: 1.3em;
+	margin-top: 10px;
+	margin-bottom: 50px;
+
+}
+
+.rickpoynor{
+	font-family: 'fengardo-neue';
+	font-size: 1.1em;
+	line-height: 1.4em;
+	margin-bottom: 15px;
+	width: 55%;
+	position: relative;
+}
+
+#rp{
+	font-family: 'Solide Mirage_Etroit';
+	color:magenta;
+}
+
+.davidbanash{
+	font-family: 'fengardo-neue';
+	width: 70%;
+	position: relative;
+	margin-left: 270px;
+	margin-bottom:50px;
+	line-height: 1.4em;
+	font-size: 1.1em;
+}
+
+a{
+	color:#4d4dff;
+	text-decoration: wavy;
+  }
+
+.images{
+	float: left;
+}
+
+
+
